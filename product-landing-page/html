@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Sale - Premium Drum Sets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div id="logo">
+            <img src="https://via.placeholder.com/150x50?text=Drum+Store" alt="Drum Store Logo">
+        </div>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#products">Products</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+        <img id="header-img" src="logo.png">
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <div class="hero">
+                <h1>Welcome to Drum Store</h1>
+                <p>Find the perfect drum set for your music needs.</p>
+                <a href="#products" class="cta-button">Shop Now</a>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/300x200?text=Drum+Set+1" alt="Drum Set 1">
+                    <h3>Drum Set A</h3>
+                    <p>High-quality drum set for professionals.</p>
+                    <p class="price">$599.99</p>
+                    <a href="#" class="cta-button">Buy Now</a>
+                </div>
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/300x200?text=Drum+Set+2" alt="Drum Set 2">
+                    <h3>Drum Set B</h3>
+                    <p>Perfect for beginners and intermediate players.</p>
+                    <p class="price">$399.99</p>
+                    <a href="#" class="cta-button">Buy Now</a>
+                </div>
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/300x200?text=Drum+Set+3" alt="Drum Set 3">
+                    <h3>Drum Set C</h3>
+                    <p>Durable and stylish drum set.</p>
+                    <p class="price">$799.99</p>
+                    <a href="#" class="cta-button">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/400x300?text=Drum+Gallery+1" alt="Drum Gallery 1">
+                <img src="https://via.placeholder.com/400x300?text=Drum+Gallery+2" alt="Drum Gallery 2">
+                <img src="https://via.placeholder.com/400x300?text=Drum+Gallery+3" alt="Drum Gallery 3">
+            </div>
+        </section>
+<section id="section1">
+            <h1>Catch Our Product in Action</h1>
+            <iframe id="video" src="https://youtu.be/6HcQice0wcA?si=4SvE2YIMqRuUc28p" frameborder="0" allowfullscreen></iframe>
+        </section>  
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+                <input id="submit" type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Drum Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
