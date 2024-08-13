@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Dr. A.P.J. Abdul Kalam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main">
+        <section id="title">
+            <h1>Dr. A.P.J. Abdul Kalam</h1>
+        </section>
+
+        <div id="img-div">
+            <img id="image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthelogicalindian.com%2Fstory-feed%2Fget-inspired%2Fremembering-dr-apj-abdul-kalam-on-his-89th-birth-anniversary-24338&psig=AOvVaw0ZiNJZcZ0cYXLDLwld3MBA&ust=1722962544729000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCiiu2l3ocDFQAAAAAdAAAAABAE" alt="Dr. A.P.J. Abdul Kalam">
+            <figcaption id="img-caption"> Dr. A.P.J. Abdul Kalam Murial</figcaption
+            <p id="img-caption">Dr. A.P.J. Abdul Kalam, the People's President and Missile Man of India.</p>
+        </div>
+
+        <section id="tribute-info">
+            <p>Dr. Avul Pakir Jainulabdeen Abdul Kalam, popularly known as A.P.J. Abdul Kalam, was an Indian scientist and the 11th President of India. He played a key role in India's nuclear and space programs and was affectionately known as the "Missile Man of India" for his contributions to missile development.</p>
+            <p>Born on October 15, 1931, in Rameswaram, Tamil Nadu, Kalam's early life was marked by hardship. Despite these challenges, he pursued his dreams in science and technology. His leadership in the Indian space program, especially the development of the Satellite Launch Vehicle (SLV), earned him national and international acclaim.</p>
+            <p>As President of India from 2002 to 2007, Kalam was admired for his humility and dedication to the country's progress. He was known for his vision of a developed India and his commitment to education and youth empowerment. He authored several books, including his autobiography "Wings of Fire," which has inspired millions of readers.</p>
+            <p>Dr. Kalam passed away on July 27, 2015, but his legacy continues to inspire and motivate future generations. His life is a testament to the power of perseverance, education, and vision in shaping a better world.</p>
+        </section>
+
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Learn more about Dr. A.P.J. Abdul Kalam</a>
+    </main>
+</body>
+</html>
+
